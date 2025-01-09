@@ -6,10 +6,10 @@ Scanner scanner = new Scanner(System.in);
 System.out.println("What is radius of circle :");
 
 double pie = 3.141;
-double radius = scanner.nextInt();
+double radius = scanner.nextdouble();
 
 System.out.print("what is your height");
-double height=scanner.nextInt();
+double height=scanner.nextdouble();
 double volume = pie * radius*radius*height;
 
 System.out.println("volume of cylinder : "+volume);
