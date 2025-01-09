@@ -7,10 +7,10 @@ System.out.print("what is principal :");
 int principal = scanner.nextInt();
 
 System.out.print("what is Rate :");
-double rate = scanner.nextInt();
+int rate = scanner.nextInt();
 
 System.out.print("what is time :");
-double time = scanner.nextInt();
+int time = scanner.nextInt();
 
 double SI = (principal*rate*time)/100;
 
