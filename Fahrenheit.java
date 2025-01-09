@@ -5,7 +5,7 @@ Scanner scanner = new Scanner(System.in);
 
 System.out.println("what is temperature in :");
 
-double Celsius = scanner.nextdouble();
+double Celsius = scanner.nextDouble();
 double fahrenheit =(Celsius * 9/5)+32;
 
 System.out.println("temperature in fahrenheit :"+ fahrenheit);
